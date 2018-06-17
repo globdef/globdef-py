@@ -1,0 +1,37 @@
+name: globdef-py
+channels:
+- defaults
+dependencies:
+- astroid=1.5.3=py27_0
+- backports=1.0=py27_0
+- certifi=2016.2.28=py27_0
+- configparser=3.5.0=py27_0
+- enum34=1.1.6=py27_0
+- functools_lru_cache=1.4=py27_0
+- isort=4.2.15=py27_0
+- lazy-object-proxy=1.3.1=py27_0
+- pip=9.0.1=py27_1
+- pylint=1.7.2=py27_0
+- python=2.7.13=1
+- setuptools=36.4.0=py27_1
+- singledispatch=3.4.0.3=py27_0
+- six=1.10.0=py27_0
+- vc=9=0
+- vs2008_runtime=9.00.30729.5054=0
+- wheel=0.29.0=py27_0
+- wincertstore=0.2=py27_0
+- wrapt=1.10.11=py27_0
+- pip:
+  - backports.functools-lru-cache==1.4
+  - chardet==3.0.4
+  - idna==2.7
+  - isodate==0.6.0
+  - owlready==0.3.1
+  - pyparsing==2.2.0
+  - pyreadline==2.1
+  - python-magic-bin==0.4.14
+  - rdflib==4.2.2
+  - requests==2.19.1
+  - rope==0.10.7
+  - urllib3==1.23
+  - yapf==0.20.0
